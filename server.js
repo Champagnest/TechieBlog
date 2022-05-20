@@ -19,7 +19,7 @@ const sess = {
     db: sequelize,
   }),
 };
-app.use(sesson(sess));
+// app.use(sesson(sess));
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(express.json());
